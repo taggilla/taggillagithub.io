@@ -11,8 +11,8 @@ body{
 .name{
     font-family: hrift;
     font-size: 66%;
-    margin-top: -11.4;
-    margin-left: -7.4;
+    margin-top: -7.4;
+    margin-left: 3.6;
 }
 .inner{
     display: grid;
