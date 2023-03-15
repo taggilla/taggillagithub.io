@@ -9,6 +9,8 @@ body{
     background: var(--tg-theme-text-color);
 }
 .name{
+    font-famaly:hrift;
+    color:black;
     font-size: 66%;
     margin-top: -7.4;
     margin-left: 3.6;
