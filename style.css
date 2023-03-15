@@ -2,55 +2,67 @@
     font-family: hrift;
     src: url(img/cruiserfortress.ttf);
 }
-body{
-    margin: 0;
-    padding: 0;
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-text-color);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
 }
 .name{
-    font-famaly:hrift;
+    font-family:hrift;
     color:black;
     font-size: 66%;
     margin-top: -7.4;
     margin-left: 3.6;
 }
-.inner{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 160px 160px;
+
+.container {
+	max-width: 390px;
 }
 
-.container{
-    max-width: 250px;
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
 }
 
-img{
-    width: 100px;
-    height: 100px;
+.img {
+	width: 130px;
+    height: 90px;
 }
 
-.item{
-    text-align: center;
+.item {
+	text-align: center;
 }
 
-.card{
-    width: 189px;
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	transition: background .2s linear;
 }
 
-.btn{
-    display: inline-block;
-    padding: 7px 14px;
-    border: none;
-    background: rgb(248, 168, 24);
-    border-radius: 10px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: background .2s linear;
-    transform: translate(-100px,35px);
+.btn:hover {
+	background: lightgreen;
 }
 
-.btn:hover{
-    background: lightgreen;
+.usercard {
+	text-align: center;
 }
+
+/*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-link-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+*/
