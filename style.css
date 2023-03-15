@@ -9,7 +9,6 @@ body{
     background: var(--tg-theme-text-color);
 }
 .name{
-    font-family: hrift;
     font-size: 66%;
     margin-top: -7.4;
     margin-left: 3.6;
