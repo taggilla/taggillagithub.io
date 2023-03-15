@@ -1,0 +1,55 @@
+@font-face {
+    font-family: hrift;
+    src: url(img/cruiserfortress.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-text-color);
+}
+.name{
+    font-family: hrift;
+    font-size: 66%;
+    margin-top: -11.4;
+    margin-left: 7;
+}
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 160px 160px;
+}
+
+.container{
+    max-width: 250px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.item{
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 7px 14px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: background .2s linear;
+    transform: translate(-100px,35px);
+}
+
+.btn:hover{
+    background: lightgreen;
+}
