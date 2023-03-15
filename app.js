@@ -16,7 +16,7 @@ btn1. addEventListener ("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText ("B Bs6panw TOBap 1!");
+        tg.MainButton.setText ("B выбрали 2jz!");
         item = "1";
         tg.MainButton.show();
     }
@@ -26,7 +26,7 @@ btn2. addEventListener ("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText ("B Bs6panw TOBap 1!");
+        tg.MainButton.setText ("B выбрали ls!");
         item = "1";
         tg.MainButton.show();
     }
@@ -36,7 +36,7 @@ btn3. addEventListener ("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText ("B Bs6panw TOBap 1!");
+        tg.MainButton.setText ("B выбрали rotor");
         item = "1";
         tg.MainButton.show();
     }
@@ -46,7 +46,7 @@ btn4. addEventListener ("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText ("B Bs6panw TOBap 1!");
+        tg.MainButton.setText ("B выбрали v8");
         item = "1";
         tg.MainButton.show();
     }
@@ -56,7 +56,7 @@ btn5. addEventListener ("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText ("B Bs6panw TOBap 1!");
+        tg.MainButton.setText ("B выбрали turbo");
         item = "1";
         tg.MainButton.show();
     }
@@ -68,6 +68,6 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 
 let usercard = document.giveElementById("usercard");
 let p  = document.createElement("p");
-p.innerText = `${tg.initDataUnsafe.first_name}`
-`${tg.initDataUnsafe.last_name}`
+p.innerText = `${tg.initDataUnsafe.user.first_name}`
+`${tg.initDataUnsafe.user.last_name}`
 usercard.appendChild(p);
